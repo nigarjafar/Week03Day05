@@ -1,0 +1,257 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-size:15px;
+	}/**********Common Classes***********/
+
+.col-centered{
+	float:none;
+	margin :0 auto;
+}
+
+.verticalSpacer{
+	height: 50px;
+}
+.clear{
+	clear:both;
+}
+.divider{
+	height:360px;
+	text-align:center;
+	padding-top:80px;
+	background-position: center;
+}
+
+/*******Colors******/
+.bgGray{
+	background-color: #F5F5F5
+}
+
+.bgBlack{
+	background-color: #2B2B2B;
+}
+
+
+.textBlack{
+	color: #2B2B2B;
+}
+
+.textWhite{
+	color:white;
+}
+/*****Fonts******/
+h1{
+	font-size:2.5em;
+	border-bottom:1.5px solid #CCCCCC;
+	padding:20px 0px;
+	text-transform:uppercase;
+}
+
+h2{
+	font-size:2em;
+	padding:10px;
+}
+
+h4{
+	font-size:1.4em;
+	color:white;
+	margin:20px 80px;
+}
+h5{
+	font-size:1.3em;
+
+}
+
+h6{
+	font-weight: bold;
+	font-size:1.3em;
+	padding:7px;
+}
+p{
+	text-align: justify;
+	padding:10px 0;
+}
+
+
+/*************************HEADER******************/
+#header img{
+	height:50px;
+}
+
+.navbar{
+	margin-bottom:0;
+	border-radius:0;
+}
+
+#header li:hover{
+	background: black;
+}
+/*************************SLIDER******************/
+#slider{
+	height:565px;
+	background: url('img/header_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+
+}
+
+#slider h2{
+	padding-top:270px;
+	font-weight:bold;
+	text-shadow:2px 2px black;
+}
+/*************************FEATURES****************/
+#features{
+	height:320px;
+	border-bottom:1px solid #DDDDDD;
+}
+
+#features div{
+	height:320px;
+	padding:20px 20px;
+	text-align:center;
+}
+
+#features img{
+	height:70px;
+}
+#features i{
+	color: #46575E;
+}
+/*************************AGENCY******************/
+#agency{
+	height:400px;
+	text-align:center;
+}
+
+#agency div{
+	height:250px;
+}
+/*************************DIVIDER ONE**************/
+#dividerOne{
+	background: url('img/bg/divider1.jpg');
+	background-size: cover;
+	
+}
+/*************************BRAND*******************/
+#brand{
+	height:auto;
+	text-align:center;
+}
+
+
+#brand img{
+	width:100%;
+	padding-top:20px;
+}
+/*************************DIVIDER TWO**************/
+#dividerTwo{
+	background: url('img/bg/divider2.jpg');
+	background-size: cover;
+}
+/*************************TEAM********************/
+#team{
+	height:auto;
+	text-align: center;
+}
+
+#team div div{
+	height:auto;
+}
+#team div div i{
+	color:#3498DB;
+	font-size:20px;
+	padding:0px 1px 5px;
+}
+/*************************HIRE********************/
+#hire div div:last-child{
+	height:auto;
+	text-align:center;
+}
+
+#hire div img{
+	padding:50px 0;
+}
+
+#hire div div div{
+	padding:30px 0px;
+} 
+
+#hire button{
+	margin:30px 0;
+}
+/*************************DIVIDER THREE************/
+#dividerThree{
+	background: url('img/bg/divider3.jpg');
+	background-size: cover;
+}
+/*************************CREATIONS***************/
+#creations{
+	height:auto;
+	text-align:center;
+}
+/*************************DIVIDER FOUR*************/
+#dividerFour{
+	background: url('img/bg/divider4.jpg');
+	background-size: cover;
+}
+/*************************STORYTELLERS************/
+#storyTellers{
+	height:auto;
+	text-align:center;
+}
+
+#storyTellers div div div:first-child{
+	height:450px;
+}
+#storyTellers div div div:last-child{
+	height:450px;
+	text-align:left;
+}
+
+#storyTellers div div div img{
+	width:80px;
+	margin:30px 35px;
+	
+}
+
+#storyTellers div div div span:nth-child(2){
+	font-size:1.1em;
+}
+
+#storyTellers div div div span:last-child{
+	font-size:0.8em;
+}
+
+
+/*************************CRAFTED*****************/
+#crafted{
+	height:430px;
+	background:url("img/newyork.jpg");
+	background-position: center;
+	text-align:center;
+	background-size: cover;
+	
+}
+#crafted h1{
+	margin-top:50px;
+}
+
+
+
+/*************************FOOTER******************/
+#thanks{
+	height:auto;
+	text-align:center;
+}
+
+#thanks div{
+	text-align:left;
+}
+
+#copyright{
+	height:90px;
+	text-align:center;
+	padding:50px;
+
+}
