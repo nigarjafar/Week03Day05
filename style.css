@@ -102,7 +102,7 @@ p{
 }
 /*************************FEATURES****************/
 #features{
-	height:320px;
+	height:auto;
 	border-bottom:1px solid #DDDDDD;
 }
 
@@ -120,7 +120,7 @@ p{
 }
 /*************************AGENCY******************/
 #agency{
-	height:400px;
+	height:auto;
 	text-align:center;
 }
 
